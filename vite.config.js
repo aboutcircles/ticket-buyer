@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/ticket-validator-user/", // 👈 ADD THIS
+  base: "/buy-dappcon-ticket-with-circles", // 👈 ADD THIS
   plugins: [react()],
   resolve: {
     alias: {

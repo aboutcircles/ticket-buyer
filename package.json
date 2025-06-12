@@ -1,5 +1,5 @@
 {
-  "name": "dappcon-ticket-checker",
+  "name": "dappcon-ticket-buyer",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --repo https://github.com/aboutcircles/ticket-validator-user.git"
+    "deploy": "gh-pages -d dist --repo https://github.com/aboutcircles/ticket-buyer.git"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
@@ -39,5 +39,5 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   },
-  "homepage": "https://aboutcircles.github.io/ticket-validator-user"
+  "homepage": "https://aboutcircles.github.io/ticket-buyer"
 }
