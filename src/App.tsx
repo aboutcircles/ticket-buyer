@@ -12,7 +12,7 @@ const NFT_CONTRACT_ADDRESS =
 const SUPPORT_EMAIL =
   import.meta.env.VITE_SUPPORT_EMAIL || "support@aboutcircles.com";
 const PURCHASE_URL =
-  "https://app.metri.xyz/transfer/0x9a0953E46e8034E9dE02f632d8c2f5A75377cd53/crc/10000";
+  "https://app.metri.xyz/transfer/0x34EAAB1B985Bed33a1872Ac26E219482E6ee7e48/crc/10000";
 
 // ABI for contract interaction
 const ABI = [
